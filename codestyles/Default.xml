@@ -1,4 +1,5 @@
 <code_scheme name="Default">
+  <option name="RIGHT_MARGIN" value="115" />
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
