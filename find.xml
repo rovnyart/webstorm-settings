@@ -7,5 +7,38 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*" />
+    <recentFileMasks>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>s</mask>
+      <mask>se</mask>
+      <mask>ser</mask>
+      <mask>serv</mask>
+      <mask>serve</mask>
+      <mask>server</mask>
+      <mask>server/</mask>
+      <mask>server/**</mask>
+      <mask>server/**/</mask>
+      <mask>server/**/*</mask>
+      <mask>server/**/*.</mask>
+      <mask>server/**/*.js</mask>
+      <mask>server/***.js</mask>
+      <mask>server/**\*.js</mask>
+      <mask>server**\*.js</mask>
+      <mask>server\**\*.js</mask>
+      <mask>server\***.js</mask>
+      <mask>server\**.js</mask>
+      <mask>server\*.js</mask>
+      <mask>server\*js</mask>
+      <mask>server\*s</mask>
+      <mask>server\*</mask>
+      <mask>server*</mask>
+      <mask>server/*</mask>
+      <mask>*</mask>
+    </recentFileMasks>
   </component>
 </application>
