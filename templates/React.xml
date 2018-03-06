@@ -1,0 +1,42 @@
+<templateSet group="React">
+  <template name="rcl" value="class $name$ extends React.Component {&#10;  render() {&#10;    $END$&#10;  }&#10;}" description="Create React class" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rcn" value="const $Name$ = () =&gt; (&#10;  $END$&#10;);" description="Create React stateless component" toReformat="true" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rcned" value="const $Name$ = () =&gt; (&#10;  $END$&#10;);&#10;&#10;export default $Name$;" description="Create React stateless component and export it by default" toReformat="true" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rcled" value="export default class $name$ extends React.Component {&#10;  render() {&#10;    $END$&#10;  }&#10;}" description="Create React class and export it by defaule" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="afwp" value="() =&gt; {&#10;  $END$&#10;}" description="Arrow function witout params" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afp" value="({ $param$ }) =&gt; {&#10;  $END$&#10;}" description="Arrow function with params" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="&quot;param1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afi" value="() =&gt; $END$" description="Arrow function inline" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
