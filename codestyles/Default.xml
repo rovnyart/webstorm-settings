@@ -1,5 +1,8 @@
-<code_scheme name="Default">
+<code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="115" />
+  <JSCodeStyleSettings>
+    <option name="JSX_ATTRIBUTE_VALUE" value="Based on type" />
+  </JSCodeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
