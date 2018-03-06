@@ -23,7 +23,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="afwp" value="() =&gt; {&#10;  $END$&#10;}" description="Arrow function witout params" toReformat="false" toShortenFQNames="true">
+  <template name="af" value="() =&gt; {&#10;  $END$&#10;}" description="Arrow function witout params" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
