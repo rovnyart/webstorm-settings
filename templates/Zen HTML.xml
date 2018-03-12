@@ -3,30 +3,4 @@
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="col" value="&lt;col&gt;" description="&lt;col&gt;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="form" value="&lt;form action=&quot;$VAR0$&quot;&gt;$END$&lt;/form&gt;" description="&lt;form action=&quot;...&quot;&gt;...&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="label" value="&lt;label for=&quot;$VAR0$&quot;&gt;$END$&lt;/label&gt;" description="&lt;label for=&quot;...&quot;&gt;...&lt;/label&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="input" value="&lt;input type=&quot;$VAR0$&quot;&gt;" description="&lt;input type=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="inp" value="&lt;input type=&quot;$VAR0$&quot; name=&quot;$NAME$&quot; id=&quot;$ID$&quot;&gt;" description="&lt;input type=&quot;...&quot; name=&quot;...&quot; id=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
-    <variable name="NAME" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="ID" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="select" value="&lt;select name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot;&gt;$END$&lt;/select&gt;" description="&lt;select name=&quot;...&quot; id=&quot;...&quot;&gt;...&lt;/select&gt;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
