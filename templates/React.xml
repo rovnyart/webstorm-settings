@@ -47,4 +47,10 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
+  <template name="ic" value="import $Component$ from './components/$Component$';" description="Import component from local folder" toReformat="true" toShortenFQNames="true">
+    <variable name="Component" expression="" defaultValue="&quot;Component&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
