@@ -16,6 +16,11 @@
     <variable name="ID" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="param" value="&lt;param name=&quot;$VAR0$&quot; value=&quot;$VAR1$&quot;&gt;" description="&lt;param name=&quot;...&quot; value=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="option" value="&lt;option value=&quot;$VAR0$&quot;&gt;$END$&lt;/option&gt;" description="&lt;option value=&quot;...&quot;&gt;...&lt;/option&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
