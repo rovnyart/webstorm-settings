@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="deviceServerClient.js" type="JavaScript" />
       <mapping pattern="YandexMap" type="JavaScript" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="authentication" type="PLAIN_TEXT" />
