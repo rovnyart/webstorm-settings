@@ -1,7 +1,4 @@
 <templateSet group="Zen HTML">
-  <template name="col" value="&lt;col&gt;" description="&lt;col&gt;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
   <template name="cap" value="&lt;caption&gt;$END$&lt;/caption&gt;" description="&lt;caption&gt;...&lt;/caption&gt;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
