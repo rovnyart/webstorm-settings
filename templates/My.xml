@@ -1,0 +1,3 @@
+<templateSet group="My">
+  <template name="log" value="console.log($END$);" description="Console.log" toReformat="false" toShortenFQNames="true" />
+</templateSet>
